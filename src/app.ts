@@ -1,6 +1,6 @@
-import App from "./App.svelte";
+import App from "./ui/App.svelte";
 
-import { test } from './Logic';
+import { test } from './logic/Logic';
 
 const app = new App({
 	target: document.body,
